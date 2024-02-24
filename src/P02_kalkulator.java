@@ -1,7 +1,7 @@
 import java.util.Objects;
 import java.util.Scanner;
 import java.lang.String;
-public class P01_kalkulator2 {
+public class P02_kalkulator {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
