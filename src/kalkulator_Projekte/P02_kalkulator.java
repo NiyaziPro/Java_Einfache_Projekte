@@ -1,3 +1,5 @@
+package kalkulator_Projekte;
+
 import java.util.Objects;
 import java.util.Scanner;
 import java.lang.String;

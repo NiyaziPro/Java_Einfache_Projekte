@@ -1,3 +1,5 @@
+package kalkulator_Projekte;
+
 import java.util.Scanner;
 
 public class P03_kalkulator {
