@@ -12,38 +12,38 @@ public class P01_projekt {
         //         // общи елементи: …….
 
         System.out.println("Въвеждане на текст за първия списък: ");
-        List<String> liste1 = listeOlustur();
+        List<String> list1 = listCreating();
 
         System.out.println("Въвеждане на текст за втори списък : ");
-        List<String> liste2 = listeOlustur();
+        List<String> list2 = listCreating();
 
-        System.out.println("Списък 1 : " + liste1);
-        System.out.println("Списък 2 : " + liste2);
+        System.out.println("Списък 1 : " + list1);
+        System.out.println("Списък 2 : " + list2);
 
-        liste1.retainAll(liste2);
+        list1.retainAll(list2);
 
-        System.out.println("Общи елементи : " + liste1);
+        System.out.println("Общи елементи : " + list1);
 
     }
 
 
-    public static List<String>  listeOlustur(){
+    public static List<String>  listCreating(){
 
-        List<String> isimList = new LinkedList<>();
+        List<String> nameList = new LinkedList<>();
         Scanner scan = new Scanner(System.in);
-        String girilenMetin = "";
+        String input = "";
 
-        while (!girilenMetin.equals("0")){
+        while (!input.equals("0")){
             System.out.println("Моля, въведете текст за добавяне към списъка... " +
                     "\nНатиснете 0 за край");
 
-            girilenMetin = scan.nextLine();
+            input = scan.nextLine();
 
-            if (!girilenMetin.equals("0")){
-                isimList.add(girilenMetin);
+            if (!input.equals("0")){
+                nameList.add(input);
             }
         }
 
-        return isimList;
+        return nameList;
     }
 }
