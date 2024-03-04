@@ -3,7 +3,7 @@ package listAufgaben_Projekte;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class P01_listAufgaben {
+public class P02_listAufgaben {
     public static void main(String[] args) {
         // Списък със Задачи: Направете простo приложение за списък със задачи,
         // където потребителят може да добавя и премахва задачи.

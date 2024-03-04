@@ -1,8 +1,9 @@
+package listAufgaben_Projekte;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
-public class P01_projekt {
+public class P01_projekt_List {
     public static void main(String[] args) {
         // Въпрос: Създайте два списъка с низове, като вземете стойности от потребителя.
         //         // Потребителят трябва да натисне 0, за да спре да въвежда стойности.
