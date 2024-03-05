@@ -1,7 +1,9 @@
+package whileTryCatch_Projeckte;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class P01_projekt {
+public class P02_sumNumbers {
     public static void main(String[] args) {
         // Помолете потребителя за целите числа, които да бъдат сумирани
         //      - потребителят трябва да натисне Q, за да спре въвеждането на число
